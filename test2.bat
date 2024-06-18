@@ -32,5 +32,5 @@ if %errorlevel% equ 0 (
 ) else (
     echo Not running Windows XP.
 )
-
+echo Executed >> test2.log
 endlocal
